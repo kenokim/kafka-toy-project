@@ -12,5 +12,6 @@ public class ConsumerWebController {
     @GetMapping("all")
     public void getAll() {
         log.info("get all");
+
     }
 }
